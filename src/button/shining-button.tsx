@@ -69,7 +69,7 @@ export interface ShinningBtnProps {
   content: string;
 }
 
-export const ShinningBtn: React.FC<ShinningBtnProps> = ({ content }) => {
+const ShinningBtn: React.FC<ShinningBtnProps> = ({ content }) => {
   return (
     <Container>
       <a href="/#">
@@ -78,3 +78,5 @@ export const ShinningBtn: React.FC<ShinningBtnProps> = ({ content }) => {
     </Container>
   )
 }
+
+export default ShinningBtn;

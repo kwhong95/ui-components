@@ -1,1 +1,1 @@
-export * from './button/shining-button';
+export { default as ShiningBtn } from './button/shining-button';
