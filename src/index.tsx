@@ -1,1 +1,1 @@
-export * from './kwhong';
+export * from './button/shining-button';
