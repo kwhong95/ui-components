@@ -4,8 +4,6 @@ export interface kwhongProps {
   name: string;
 }
 
-const Kwhong: React.FC<kwhongProps> = ({ name }) => {
+export const Kwhong: React.FC<kwhongProps> = ({ name }) => {
   return <span>Hello, My name is, {name}</span>
 }
-
-export default Kwhong;
